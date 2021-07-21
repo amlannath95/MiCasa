@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "319387925871",
+    "firebase_url": "https://micasa3-bfdca.firebaseio.com",
+    "project_id": "micasa3-bfdca",
+    "storage_bucket": "micasa3-bfdca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319387925871:android:580144d7614969c4",
+        "android_client_info": {
+          "package_name": "com.example.rupankar.micasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319387925871-935mlhgk18i775tq4neam49r3rjgf434.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rupankar.micasa",
+            "certificate_hash": "69fc39005438ae3fadb9ab4f63cec5990b331e6c"
+          }
+        },
+        {
+          "client_id": "319387925871-njkp768e7ub07ss2mp9m66n4pq32tmp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoKz3hKgLyd14V_l8PiMJLDleHjcF0d5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319387925871-njkp768e7ub07ss2mp9m66n4pq32tmp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

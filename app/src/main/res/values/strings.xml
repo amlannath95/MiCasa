@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MiCasa</string>
+    <string name="search_hostel">Search Hostel</string>
+    <string name="register_hostel">Register Hostel</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="gender">Gender</string>
+    <string name="girls">Girls</string>
+    <string name="boys">Boys</string>
+    <string name="food">Food</string>
+    <string name="veg">Veg</string>
+    <string name="non_veg">Non Veg</string>
+    <string name="internet">Internet</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="yes1">Yes</string>
+    <string name="no1">No</string>
+    <string name="air_conditioner">Air Conditioner</string>
+    <string name="yes4">Yes</string>
+    <string name="room">Room</string>
+    <string name="single">Single</string>
+    <string name="double">Double</string>
+    <string name="double1">Double</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="district">District</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="title_activity_owner_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

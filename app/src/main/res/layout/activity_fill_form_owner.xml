@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0EBFE9"
+    android:visibility="visible">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:hint="@string/name"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Name"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="17dp"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Phone"
+        android:layout_below="@+id/Phone"
+        android:layout_marginTop="21dp"
+        android:hint="@string/address"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="17dp"
+        android:hint="@string/city"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/city"
+        android:layout_below="@+id/city"
+        android:layout_marginTop="26dp"
+        android:hint="@string/district"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/district"
+        android:layout_below="@+id/district"
+        android:layout_marginTop="25dp"
+        android:hint="@string/postal_code"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pincode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/button_bg_stroke"
+        android:textColor="#ffffff"
+        android:text="@string/submit" />
+
+
+</RelativeLayout>
